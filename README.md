@@ -52,4 +52,4 @@ For reverse data transfer -  via Protocol
 ![Screenshot 2022-06-21 at 2 21 19 PM](https://user-images.githubusercontent.com/68166401/174759319-5e18f7a0-231e-4624-beac-66b5393b8076.png)
 
 
-##-----------**Thank You**--------------
+##-----------Thank You--------------
