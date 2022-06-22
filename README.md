@@ -5,9 +5,9 @@ Simple example has been implemented using **'Protocol oriented programming'** an
 
 Developer can learn how to implement **'Clean Architecture'** in easy way and how they transfer data **'forward and reverse'** mode.
 
-**- For forward data transfer** -  via Dependency injection
+**Markup : - For forward data transfer** -  via Dependency injection
 
-**- For reverse data transfer** -  via Protocol
+**Markup : - For reverse data transfer** -  via Protocol
 
 ## Flow Diagram
 
