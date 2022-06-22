@@ -100,10 +100,10 @@
 			children = (
 				10D3B843285755F000CF35FA /* AppDelegate.swift */,
 				10D3B845285755F000CF35FA /* SceneDelegate.swift */,
-				101C7E7C2861AC2000A461E9 /* Storyboarded.swift */,
+				F53956DC28634F0B00FC1FE4 /* Utility */,
 				10D3B869285778B400CF35FA /* Controllers */,
-				10D3B849285755F000CF35FA /* Main.storyboard */,
 				10D3B84C285755F300CF35FA /* Assets.xcassets */,
+				10D3B849285755F000CF35FA /* Main.storyboard */,
 				10D3B84E285755F300CF35FA /* LaunchScreen.storyboard */,
 				10D3B851285755F300CF35FA /* Info.plist */,
 			);
@@ -131,6 +131,14 @@
 				1052CAC72857B3CD002629C9 /* StudentDetails */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F53956DC28634F0B00FC1FE4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				101C7E7C2861AC2000A461E9 /* Storyboarded.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

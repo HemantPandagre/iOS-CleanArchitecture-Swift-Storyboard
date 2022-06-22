@@ -34,14 +34,13 @@ class StudentInteractor: StudentListBussinessLogic, StudentDataStore {
     }
     
     func updateListData(student: Student?) {
-        if let stu = selectedStudent, let index = students?.firstIndex(of: stu), let udpatedStudent = student {
-            students?.remove(at: index)
+        if let stuObj = selectedStudent,((students?.isEmpty) != nil), let index = students!.firstIndex(of: stuObj), let udpatedStudent = student {
             students![index] = udpatedStudent
             present()
         }
     }
     
-    func present() {
+    private func present() {
         self.presenter?.presentStudents(students: self.students ?? [])
     }
     
