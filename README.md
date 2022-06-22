@@ -5,9 +5,9 @@ Simple example has been implemented using **'Protocol oriented programming'** an
 
 Developer can learn how to implement **'Clean Architecture'** in easy way and how they transfer data **'forward and reverse'** mode.
 
-Markup : * For forward data transfer -  via Dependency injection
+**1) For forward data transfer** -  via Dependency injection
 
-Markup : * For reverse data transfer -  via Protocol
+**2) For reverse data transfer** -  via Protocol
 
 ## Flow Diagram
 
@@ -16,30 +16,30 @@ Markup : * For reverse data transfer -  via Protocol
 
 ## Responsibilities of Components :
 
-**- Viewcontroller:**
+**1) Viewcontroller:**
 
   The 'Viewcontroller' file is responsible for configuring all components like Interactor, Presenter, Router, Worker and DataStore for transfering the data.
 
-**- Interactor:**
+**2) Interactor:**
 
   The 'Interactor' file is responsible for the business logic.
 
-**- Presenter:**
+**3) Presenter:**
 
   The 'Presenter' file is responsible for transforming the data into viewmodel and send to the view for displaing the data.
 
-**- Router:**
+**4) Router:**
 
   The 'Router' file is responsible for navigation process and data passing.
 
-**- Worker:**
+**5) Worker:**
 
   The 'Presenter' file is responsible for sending and receiving the data from server or database or any other source.
   
-**- Models:**
+**6) Models:**
   The 'Models' file is responsible for declare all models for specific screen.
   
-**- Configurator:**
+**7) Configurator:**
 
   The 'Configurator' file is responsible for configuring all other files like Viewcontroller, interactor, presenter, router and datastore.
 
