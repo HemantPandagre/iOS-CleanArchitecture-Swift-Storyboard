@@ -1,13 +1,13 @@
 # iOS-CleanArchitecture-Swift-Storyboard
-A demo project showcasing the setup of the swift and storyboard app with Clean Architecture.
+A demo project showcasing the setup of the swift and storyboard app with **'Clean Architecture'**.
 
-Simple example has been implemented using 'Protocol oriented programming' and 'SOLID' principles in this project. 
+Simple example has been implemented using **'Protocol oriented programming'** and **'SOLID'** principles in this project. 
 
-Developer can learn how to implement 'Clean Architecture' in easy way and how they transfer data 'forward and reverse' mode.
+Developer can learn how to implement **'Clean Architecture'** in easy way and how they transfer data **'forward and reverse'** mode.
 
-For forward data transfer -  via Dependency injection
+**For forward data transfer** -  via Dependency injection
 
-For reverse data transfer -  via Protocol
+**For reverse data transfer** -  via Protocol
 
 ## Flow Diagram
 
@@ -16,26 +16,32 @@ For reverse data transfer -  via Protocol
 
 ## Responsibilities of Components :
 
-** Viewcontroller: 
+**Viewcontroller:**
   The 'Viewcontroller' file is responsible for configuring all components like Interactor, Presenter, Router, Worker and DataStore for transfering the data.
 
-** Interactor:
+**Interactor:**
   The 'Interactor' file is responsible for the business logic.
 
-** Presenter:
+**Presenter:**
   The 'Presenter' file is responsible for transforming the data into viewmodel and send to the view for displaing the data.
 
-** Router:
+**Router:**
   The 'Router' file is responsible for navigation process and data passing.
 
-** Presenter:
+**Worker:**
   The 'Presenter' file is responsible for sending and receiving the data from server or database or any other source.
+  
+**Models:**
+  The 'Models' file is responsible for declare all models for specific screen.
+  
+**Configurator:**
+  The 'Configurator' file is responsible for configuring all other files like Viewcontroller, interactor, presenter, router and datastore.
 
 ## Configure Templates :
 
    Developer can save the time with configure this templates in xcode. They don't need to create all files every time. They can use this template and create all files in one time for one screen with default configuration related to clean architecture.
 
-###### Setup Template:
+## Setup Template:
 
    **Path** - /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
 
