@@ -17,24 +17,30 @@ Developer can learn how to implement **'Clean Architecture'** in easy way and ho
 ## Responsibilities of Components :
 
 **Viewcontroller:**
+
   The 'Viewcontroller' file is responsible for configuring all components like Interactor, Presenter, Router, Worker and DataStore for transfering the data.
 
 **Interactor:**
+
   The 'Interactor' file is responsible for the business logic.
 
 **Presenter:**
+
   The 'Presenter' file is responsible for transforming the data into viewmodel and send to the view for displaing the data.
 
 **Router:**
+
   The 'Router' file is responsible for navigation process and data passing.
 
 **Worker:**
+
   The 'Presenter' file is responsible for sending and receiving the data from server or database or any other source.
   
 **Models:**
   The 'Models' file is responsible for declare all models for specific screen.
   
 **Configurator:**
+
   The 'Configurator' file is responsible for configuring all other files like Viewcontroller, interactor, presenter, router and datastore.
 
 ## Configure Templates :
