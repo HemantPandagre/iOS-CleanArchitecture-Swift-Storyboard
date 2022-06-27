@@ -53,7 +53,7 @@ Developer can learn how to implement **'Clean Architecture'** in easy way and ho
 
    1. Goto 'Above' path from finder.
    2. Copy 'Clean Architecture - Swift' folder in "Template" in this repository.
-   3. then paste above mentioned path.
+   3. then paste in above mentioned path.
    4. Hurray!! Now You can use this from xcode.
 
 
