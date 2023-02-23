@@ -18,11 +18,11 @@ Developer can learn how to implement **'Clean Architecture'** in easy way and ho
 
 **1) Viewcontroller:**
 
-  The 'Viewcontroller' file is responsible for configuring all components like Interactor, Presenter, Router, Worker and DataStore for transfering the data.
+  The 'Viewcontroller' file defines a scene and contains a view or views. it keeps instances of the interactor and router. Passes the actions from views to the interactor (output) and takes the presenter actions as input.
 
 **2) Interactor:**
 
-  The 'Interactor' file is responsible for the business logic.
+  The 'Interactor' file is responsible for the business logic. Keeps a reference to the presenter. The interactor should never import the UIKit.
 
 **3) Presenter:**
 
@@ -34,7 +34,7 @@ Developer can learn how to implement **'Clean Architecture'** in easy way and ho
 
 **5) Worker:**
 
-  The 'Presenter' file is responsible for sending and receiving the data from server or database or any other source.
+  The 'Presenter' file is responsible for sending and receiving the data from server or local database or any other source. 
   
 **6) Models:**
   The 'Models' file is responsible for declare all models for specific screen.
