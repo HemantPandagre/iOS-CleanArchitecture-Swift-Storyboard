@@ -34,7 +34,7 @@ Developer can learn how to implement **'Clean Architecture'** in easy way and ho
 
 **5) Worker:**
 
-  The 'Presenter' file is responsible for sending and receiving the data from server or local database or any other source. 
+  The 'Worker' file is responsible for sending and receiving the data from server or local database or any other source. 
   
 **6) Models:**
   The 'Models' file is responsible for declare all models for specific screen.
